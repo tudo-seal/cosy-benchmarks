@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764165152513,
+  "lastUpdate": 1764166478081,
   "repoUrl": "https://github.com/tudo-seal/cosy",
   "entries": {
     "Benchmark CoSy": [
@@ -104,6 +104,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01982246128508269",
             "extra": "mean: 262.1204193999972 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66126ba81531a3fbe7e9dce9860d07eeb31b5f78",
+          "message": "Update README.md to build badges based on pypi.org (#54)\n\n* Update README.md to build badges based on pypi.org (instead of test.pypi.org)\n\n* Rename release step in pre-release workflow to pre-release",
+          "timestamp": "2025-11-26T15:14:07+01:00",
+          "tree_id": "8cc10209465656f33a91b31e683368b624c07bbe",
+          "url": "https://github.com/tudo-seal/cosy/commit/66126ba81531a3fbe7e9dce9860d07eeb31b5f78"
+        },
+        "date": 1764166477695,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_maximal_elements.py::test_benchmark_maximal_elements",
+            "value": 9.97636778047421,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002731099256832097",
+            "extra": "mean: 100.23688200000049 msec\nrounds: 11"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze.py::test_benchmark_maze",
+            "value": 4.011942252215591,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015521784436499519",
+            "extra": "mean: 249.25583099999784 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_contains.py::test_benchmark_maze_contains",
+            "value": 3.727955987656155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016071693748730187",
+            "extra": "mean: 268.24351020000137 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_loopfree.py::test_benchmark_maze_loopfree",
+            "value": 3.92310245897336,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018750882616963276",
+            "extra": "mean: 254.90030159999722 msec\nrounds: 5"
           }
         ]
       }
