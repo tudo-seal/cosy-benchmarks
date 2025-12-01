@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764596088702,
+  "lastUpdate": 1764601864051,
   "repoUrl": "https://github.com/tudo-seal/cosy",
   "entries": {
     "Benchmark CoSy": [
@@ -208,6 +208,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018082439744633957",
             "extra": "mean: 265.0961775999946 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "31094379+mrhaandi@users.noreply.github.com",
+            "name": "Andrej Dudenhefner",
+            "username": "mrhaandi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3d1cfe1a545d8123755756a03a18b172b1e1117",
+          "message": "compute the greatest lower bound on necessary substitutions instead of discarding multiple candidates (#55)\n\nadd test for overlapping necessary substitutions\nrefactor substitution upper and lower bounds into subtypes",
+          "timestamp": "2025-12-01T16:10:31+01:00",
+          "tree_id": "066bab3bbadb8c2ce625358972a317a28aded54a",
+          "url": "https://github.com/tudo-seal/cosy/commit/d3d1cfe1a545d8123755756a03a18b172b1e1117"
+        },
+        "date": 1764601863586,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_maximal_elements.py::test_benchmark_maximal_elements",
+            "value": 9.839175817895473,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008225371312546343",
+            "extra": "mean: 101.63452900000038 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze.py::test_benchmark_maze",
+            "value": 4.22027796548528,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010365459195633718",
+            "extra": "mean: 236.95121699999504 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_contains.py::test_benchmark_maze_contains",
+            "value": 3.9075922182405063,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013737887234858807",
+            "extra": "mean: 255.91206659999844 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_loopfree.py::test_benchmark_maze_loopfree",
+            "value": 4.125755247862721,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008312884035643037",
+            "extra": "mean: 242.37986499999806 msec\nrounds: 5"
           }
         ]
       }
