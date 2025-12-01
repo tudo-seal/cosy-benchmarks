@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764166478081,
+  "lastUpdate": 1764596088702,
   "repoUrl": "https://github.com/tudo-seal/cosy",
   "entries": {
     "Benchmark CoSy": [
@@ -156,6 +156,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018750882616963276",
             "extra": "mean: 254.90030159999722 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00b12d1f364d9ae2a3d8d56373c16bb238b82271",
+          "message": "Update formatting of all files to be compatible with Hatch 1.16.1 and corresponding ruff version (#56)",
+          "timestamp": "2025-12-01T14:34:14+01:00",
+          "tree_id": "c9df2c551468dbc8e6adc8a5ae11492720cc143f",
+          "url": "https://github.com/tudo-seal/cosy/commit/00b12d1f364d9ae2a3d8d56373c16bb238b82271"
+        },
+        "date": 1764596088287,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_maximal_elements.py::test_benchmark_maximal_elements",
+            "value": 9.832806942862879,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005174767603265798",
+            "extra": "mean: 101.70035940000304 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze.py::test_benchmark_maze",
+            "value": 3.5764874669671487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026208882608819338",
+            "extra": "mean: 279.60394360000294 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_contains.py::test_benchmark_maze_contains",
+            "value": 3.4847909969905797,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024766768188498624",
+            "extra": "mean: 286.9612556000021 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_loopfree.py::test_benchmark_maze_loopfree",
+            "value": 3.7722158389960145,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018082439744633957",
+            "extra": "mean: 265.0961775999946 msec\nrounds: 5"
           }
         ]
       }
