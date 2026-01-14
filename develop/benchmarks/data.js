@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768400424965,
+  "lastUpdate": 1768400633667,
   "repoUrl": "https://github.com/tudo-seal/cosy",
   "entries": {
     "Benchmark CoSy": [
@@ -624,6 +624,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01593379961130122",
             "extra": "mean: 239.17329800000005 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be71b5dc3a468f555edd4a81b493227e26d5dddb",
+          "message": "Bump actions/checkout from 5 to 6 (#61)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 5 to 6.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/v5...v6)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-version: '6'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-14T15:23:25+01:00",
+          "tree_id": "621164fcf575db475cc95a96d37080f5b05fe46e",
+          "url": "https://github.com/tudo-seal/cosy/commit/be71b5dc3a468f555edd4a81b493227e26d5dddb"
+        },
+        "date": 1768400633384,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_maximal_elements.py::test_benchmark_maximal_elements",
+            "value": 9.608281351562356,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010017085420616013",
+            "extra": "mean: 104.07688570000033 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze.py::test_benchmark_maze",
+            "value": 3.9235166334572096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018797551923491352",
+            "extra": "mean: 254.87339380000262 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_contains.py::test_benchmark_maze_contains",
+            "value": 3.5391214334611916,
+            "unit": "iter/sec",
+            "range": "stddev: 0.025877608823890046",
+            "extra": "mean: 282.55600119999826 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_loopfree.py::test_benchmark_maze_loopfree",
+            "value": 3.8477221717914887,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02072136799063595",
+            "extra": "mean: 259.8940244000005 msec\nrounds: 5"
           }
         ]
       }
