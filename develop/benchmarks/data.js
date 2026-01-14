@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768397755826,
+  "lastUpdate": 1768399237015,
   "repoUrl": "https://github.com/tudo-seal/cosy",
   "entries": {
     "Benchmark CoSy": [
@@ -520,6 +520,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015318126018128351",
             "extra": "mean: 254.02717299999722 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2529f00488a0dbd379c51f2a6e2915e64012a2f6",
+          "message": "Update benchmarks.yml to fix token-acquiring logic (#66)\n\n* Resolve issue with wrong token for checking out public repo\n\n* Update benchmarks.yml to fix token-acquiring logic",
+          "timestamp": "2026-01-14T15:00:10+01:00",
+          "tree_id": "124a43d0726d140e11db781d55b9530cb940897a",
+          "url": "https://github.com/tudo-seal/cosy/commit/2529f00488a0dbd379c51f2a6e2915e64012a2f6"
+        },
+        "date": 1768399236873,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_maximal_elements.py::test_benchmark_maximal_elements",
+            "value": 9.827359802486743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000877566863528534",
+            "extra": "mean: 101.75673020000318 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze.py::test_benchmark_maze",
+            "value": 3.6772224531464546,
+            "unit": "iter/sec",
+            "range": "stddev: 0.023877851597054547",
+            "extra": "mean: 271.9443854000019 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_contains.py::test_benchmark_maze_contains",
+            "value": 3.429945255316075,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02465046303048392",
+            "extra": "mean: 291.5498427999978 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_loopfree.py::test_benchmark_maze_loopfree",
+            "value": 3.629112337354938,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02481982421894964",
+            "extra": "mean: 275.5494752000004 msec\nrounds: 5"
           }
         ]
       }
