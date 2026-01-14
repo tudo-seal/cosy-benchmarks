@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768392272004,
+  "lastUpdate": 1768395955033,
   "repoUrl": "https://github.com/tudo-seal/cosy",
   "entries": {
     "Benchmark CoSy": [
@@ -364,6 +364,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012871224793249338",
             "extra": "mean: 244.2079041999989 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "490e16ffda8f5eafde406d5ce4442232ef2602d6",
+          "message": "Update CI so that forks run the benchmarks (#63)",
+          "timestamp": "2026-01-14T14:05:27+01:00",
+          "tree_id": "4d08872e4c28004e5f5b43ace7998e162e8a37a6",
+          "url": "https://github.com/tudo-seal/cosy/commit/490e16ffda8f5eafde406d5ce4442232ef2602d6"
+        },
+        "date": 1768395954784,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_maximal_elements.py::test_benchmark_maximal_elements",
+            "value": 9.846264744785127,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001322483484541215",
+            "extra": "mean: 101.56135610000021 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze.py::test_benchmark_maze",
+            "value": 4.138006827928071,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014582274549526954",
+            "extra": "mean: 241.66224020000158 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_contains.py::test_benchmark_maze_contains",
+            "value": 3.816414771651689,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014978732126225415",
+            "extra": "mean: 262.02602699999886 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_benchmark_maze_loopfree.py::test_benchmark_maze_loopfree",
+            "value": 4.0470719831220165,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015151019479569323",
+            "extra": "mean: 247.09221979999825 msec\nrounds: 5"
           }
         ]
       }
